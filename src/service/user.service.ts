@@ -158,3 +158,35 @@ export const bookAppointment = async function (data: {
         return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null }
     }
 }
+
+
+
+
+export const cancellAppointment = async function (appointmentId: string, userId: string) {
+    try {
+        const appointmentData = await appointmentModel.findById(appointmentId)
+
+        if (appointmentData?.userId !== userId) {
+            return { status: httpcode.UNAUTHORIZED, message: "Unauthorized action", data: null };
+        }
+
+        await appointmentModel.findByIdAndUpdate(appointmentId, { cancelled: true });
+
+        const { docId, slotDate, slotTime } = appointmentData;
+
+        const doctorData = await doctorModel.findById(docId, { __v: 0 });
+
+        let slots_booked = doctorData?.slots_booked;
+
+        if (slots_booked && slots_booked[slotDate]) {
+            slots_booked[slotDate] = slots_booked[slotDate].filter((e: any) => e !== slotTime);
+            await doctorModel.findByIdAndUpdate(docId, { slots_booked });
+            return { status: httpcode.OK, message: "Appointment has been cancled", data: null };
+        }
+
+        return { status: httpcode.NOT_FOUND, message: "Slots for the doctor not exists", data: null };
+
+    } catch (error: any) {
+        return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+}

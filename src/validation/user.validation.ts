@@ -27,9 +27,14 @@ export const userUpdateProfile = joi.object({
 });
 
 
-export const userAppointmentReq = joi.object({
+export const userAppointmentReqValidation = joi.object({
     userId: joi.required(),
     docId: joi.required(),
     slotDate: joi.required(),
     slotTime: joi.required()
 });
+
+export const userAppointmentCancellValidation = joi.object({
+    userId: joi.required(),
+    appointmentId: joi.required()
+})

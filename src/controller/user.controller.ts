@@ -175,6 +175,17 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
             slotTime
         }
 
+        const { error } = Validation.userAppointmentReqValidation.validate(data);
+
+        if(error){
+            res.status(400).json({
+                status: 400,
+                message: error.message,
+                data: null
+            });
+            return;
+        }
+
         const response = await UserService.bookAppointment(data);
 
         res.status(response.status).json({
@@ -191,4 +202,41 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
         });
     }
 
+}
+
+
+export const handelCancelAppointment = async (req: Request, res: Response) => {
+    try {
+
+        const { userId, appointmentId } = req.body;
+
+        const { error } = Validation.userAppointmentCancellValidation.validate({ 
+            userId, 
+            appointmentId
+        });
+
+        if(error){
+            res.status(400).json({
+                status: 400,
+                message: error.message,
+                data: null
+            });
+            return;
+        }
+
+        const response = await UserService.cancellAppointment(userId, appointmentId);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
 }
