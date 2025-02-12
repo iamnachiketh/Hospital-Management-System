@@ -15,7 +15,6 @@ interface IDoctor {
         line2: string;
     };
     date: number;
-    refreshToken: string;
 }
 
 export default IDoctor;

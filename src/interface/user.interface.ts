@@ -12,7 +12,6 @@ interface IUser {
     password: string;
     medicalHistory: string;
     previousMedication?: string;
-    refreshToken: string;
 }
 
 export default IUser;
