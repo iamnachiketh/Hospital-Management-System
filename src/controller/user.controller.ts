@@ -240,3 +240,26 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
         });
     }
 }
+
+
+export const handelListAppointment = async (req: Request, res: Response) => {
+    try {
+
+        const userId  = req.query.id as string;
+
+        const response = await UserService.listOfAppointments(userId);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
+}
