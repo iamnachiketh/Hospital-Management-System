@@ -8,19 +8,19 @@ import httpCode from "http-status-codes";
 export const loginDoctor = async function (email: string, password: string) {
     try {
 
-        const user = await doctorModel.findOne({ email }, { __v: 0 });
+        const doctor = await doctorModel.findOne({ email }, { __v: 0 });
 
-        if (!user) {
+        if (!doctor) {
             return { status: httpCode.BAD_REQUEST, message: "Invalid credentials", data: null };
         }
 
-        // const isMatch = await bcrypt.compare(password, user.password)
+        // const isMatch = await bcrypt.compare(password, doctor.password)
 
-        const isMatch = password === user.password;
+        const isMatch = password === doctor.password;
 
         if (isMatch) {
-            const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET as string);
-            return { status: httpCode.OK, message: "Doctor has been successfully logged in", data: user, token };
+            const token = jwt.sign({ id: doctor._id }, process.env.JWT_SECRET as string);
+            return { status: httpCode.OK, message: "Doctor has been successfully logged in", data: doctor, token };
         }
 
         return { status: httpCode.BAD_REQUEST, message: "Invalid credentials", data: null };

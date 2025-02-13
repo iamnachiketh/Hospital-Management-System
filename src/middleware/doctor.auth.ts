@@ -10,7 +10,7 @@ export const authDoctor = async (req: Request, res: Response, next: NextFunction
     try {
         const token_decode = jwt.verify(dtoken, process.env.JWT_SECRET as string);
         if (typeof token_decode !== "string" && "id" in token_decode) {
-            req.body.userId = token_decode.id;
+            req.body.docId = token_decode.id;
             next();
         } else {
             res.status(500).json({

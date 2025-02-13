@@ -1,6 +1,6 @@
 interface IPrescription {
     docId: String,
-    userId: String,
+    patientId: String,
     medication: String
 }
 

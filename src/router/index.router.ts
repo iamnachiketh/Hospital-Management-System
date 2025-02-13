@@ -1,5 +1,5 @@
 import { Router } from "express";
-import userRouter from "./user.router";
+import patientRouter from "./patient.router";
 import doctorRouter from "./doctor.route";
 
 
@@ -7,7 +7,7 @@ import doctorRouter from "./doctor.route";
 export const handleRouter = () => {
     const router = Router();
 
-    router.use("/users", userRouter);
+    router.use("/patients", patientRouter);
 
     router.use("/doctors", doctorRouter);
 

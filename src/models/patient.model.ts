@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import IUser from "../interface/user.interface";
+import IPatient from "../interface/patient.interface";
 
-const userSchema = new mongoose.Schema<IUser>({
+const patientSchema = new mongoose.Schema<IPatient>({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     phone: { type: String, default: '000000000' },
@@ -14,5 +14,5 @@ const userSchema = new mongoose.Schema<IUser>({
     previousMedication: { type: String, default: "none" }
 }, { timestamps: true });
 
-export const userModel = mongoose.model<IUser>("user", userSchema);
+export const patientModel = mongoose.model<IPatient>("patient", patientSchema);
 

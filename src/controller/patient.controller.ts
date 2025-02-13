@@ -1,24 +1,25 @@
 import { Request, Response } from "express";
-import * as UserService from "../service/user.service";
-import * as Validation from "../validation/user.validation";
+import * as PatientService from "../service/patient.service";
+import * as Validation from "../validation/patient.validation";
 import bcrypt from "bcryptjs";
 
-export const handleRegisterUser = async (req: Request, res: Response) => {
+export const handleRegisterPatient = async (req: Request, res: Response) => {
 
     try {
-        const { name, email, password, medicalHistory } = req.body;
+        const { name, email, password, medicalHistory, previousMedication } = req.body;
 
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt)
 
-        const userData = {
+        const patientData = {
             name,
             email,
             password: hashedPassword,
-            medicalHistory
+            medicalHistory,
+            previousMedication
         }
 
-        const { error } = Validation.userRegisterVlidation.validate(userData);
+        const { error } = Validation.patientRegisterVlidation.validate(patientData);
 
         if (error) {
             res
@@ -31,7 +32,7 @@ export const handleRegisterUser = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.registerUser(userData);
+        const response = await PatientService.registerPatient(patientData);
 
         res
             .status(response.status)
@@ -43,14 +44,13 @@ export const handleRegisterUser = async (req: Request, res: Response) => {
             });
 
     } catch (error: any) {
-        console.log(error)
         res.status(500).json({ status: 500, message: error.message, data: null });
     }
 }
 
 
 
-export const handleLoginUser = async (req: Request, res: Response) => {
+export const handleLoginPatient = async (req: Request, res: Response) => {
 
     try {
         const { email, password } = req.body;
@@ -60,7 +60,7 @@ export const handleLoginUser = async (req: Request, res: Response) => {
             password
         };
 
-        const { error } = Validation.userLoginValidation.validate(data);
+        const { error } = Validation.patientLoginValidation.validate(data);
 
         if (error) {
             res.status(400).json({
@@ -71,7 +71,7 @@ export const handleLoginUser = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.loginUser(data);
+        const response = await PatientService.loginPatient(data);
 
         res.status(response.status).json({
             status: response.status,
@@ -81,7 +81,6 @@ export const handleLoginUser = async (req: Request, res: Response) => {
         });
 
     } catch (error: any) {
-        console.log(error)
         res.status(500).json({
             status: 500, message: error.message, data: null
         });
@@ -93,7 +92,7 @@ export const handleGetProfile = async (req: Request, res: Response) => {
     try {
         const id = req.query.id as string;
 
-        const response = await UserService.getProfile(id);
+        const response = await PatientService.getProfile(id);
 
         res.status(response.status).json({
             status: response.status,
@@ -111,10 +110,10 @@ export const handleUpdateProfile = async (req: Request, res: Response) => {
 
     try {
 
-        const { userId, name, phone, address, dob, gender } = req.body;
+        const { patientId, name, phone, address, dob, gender } = req.body;
 
         const data = {
-            userId,
+            patientId,
             name,
             phone,
             address,
@@ -122,7 +121,7 @@ export const handleUpdateProfile = async (req: Request, res: Response) => {
             gender
         };
 
-        const { error } = Validation.userUpdateProfile.validate(data);
+        const { error } = Validation.patientUpdateProfile.validate(data);
 
         if (error) {
             res.status(500).json({
@@ -133,7 +132,7 @@ export const handleUpdateProfile = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.updateProfile(data);
+        const response = await PatientService.updateProfile(data);
 
         res.status(response.status).json({
             status: response.status,
@@ -155,16 +154,16 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
 
     try {
 
-        const { userId, docId, slotDate, slotTime } = req.body;
+        const { patientId, docId, slotDate, slotTime } = req.body;
 
         const data = {
-            userId,
+            patientId,
             docId,
             slotDate,
             slotTime
         }
         
-        const { error } = Validation.userAppointmentReqValidation.validate(data);
+        const { error } = Validation.patientAppointmentReqValidation.validate(data);
 
         if(error){
             res.status(400).json({
@@ -175,7 +174,7 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.bookAppointment(data);
+        const response = await PatientService.bookAppointment(data);
 
         res.status(response.status).json({
             status: response.status,
@@ -197,10 +196,10 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
 export const handelCancelAppointment = async (req: Request, res: Response) => {
     try {
 
-        const { userId, appointmentId } = req.body;
+        const { patientId, appointmentId } = req.body;
 
-        const { error } = Validation.userAppointmentCancellValidation.validate({ 
-            userId, 
+        const { error } = Validation.patientAppointmentCancellValidation.validate({ 
+            patientId, 
             appointmentId
         });
 
@@ -213,7 +212,7 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.cancellAppointment(appointmentId, userId);
+        const response = await PatientService.cancellAppointment(appointmentId, patientId);
 
         res.status(response.status).json({
             status: response.status,
@@ -234,9 +233,9 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
 export const handelListAppointment = async (req: Request, res: Response) => {
     try {
 
-        const userId  = req.query.id as string;
+        const patientId  = req.query.id as string;
 
-        const response = await UserService.listOfAppointments(userId);
+        const response = await PatientService.listOfAppointments(patientId);
 
         res.status(response.status).json({
             status: response.status,

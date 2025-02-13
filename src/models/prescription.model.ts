@@ -3,7 +3,7 @@ import IPrescription from "../interface/prescription.model";
 
 
 const prescriptionModel = new mongoose.Schema<IPrescription>({
-    userId: { type: String, required: true },
+    patientId: { type: String, required: true },
     docId: { type: String, required: true },
     medication: { type: String, required: true }
 }, { timestamps: true });
