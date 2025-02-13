@@ -1,9 +1,9 @@
 interface IAppointment {
-    userId: string;
+    patientId: string;
     docId: string;
     slotDate: string;
     slotTime: string;
-    userData: Record<string, any>; 
+    patientData: Record<string, any>; 
     docData: Record<string, any>;  
     amount: number;
     date: number;

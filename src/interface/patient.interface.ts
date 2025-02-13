@@ -1,4 +1,4 @@
-interface IUser {
+interface IPatient {
     name: string;
     email: string;
     phone?: string;
@@ -14,4 +14,4 @@ interface IUser {
     previousMedication?: string;
 }
 
-export default IUser;
+export default IPatient;

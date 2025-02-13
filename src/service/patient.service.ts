@@ -1,4 +1,4 @@
-import { userModel } from "../models/user.model";
+import { patientModel } from "../models/patient.model";
 import { doctorModel } from "../models/doctor.model";
 import { appointmentModel } from "../models/appointment.model";
 import jwt from "jsonwebtoken";
@@ -6,24 +6,24 @@ import httpcode from "http-status-codes";
 import bcrypt from "bcryptjs";
 
 
-export const registerUser = async function (data: any) {
+export const registerPatient = async function (data: any) {
 
     try {
 
-        const isUserPresent = await userModel.findOne({ email: data.email }, { __v: 0 });
+        const isPatientPresent = await patientModel.findOne({ email: data.email }, { __v: 0 });
 
-        if (isUserPresent) {
+        if (isPatientPresent) {
             return {
                 status: httpcode.BAD_REQUEST,
-                message: "User already exists",
-                data: isUserPresent
+                message: "Patient already exists",
+                data: isPatientPresent
             };
         }
 
-        const newUser = new userModel(data, { __v: 0 });
-        const user = await newUser.save();
+        const newPatient = new patientModel(data, { __v: 0 });
+        const patient = await newPatient.save();
         const token = jwt.sign(
-            { id: user._id },
+            { id: patient._id },
             process.env.JWT_SECRET as string,
             {
                 expiresIn: "3d"
@@ -31,8 +31,8 @@ export const registerUser = async function (data: any) {
 
         return {
             status: httpcode.CREATED,
-            message: "User has been created",
-            token: token, data: user
+            message: "Patient has been created",
+            token: token, data: patient
         };
 
     } catch (error: any) {
@@ -42,19 +42,19 @@ export const registerUser = async function (data: any) {
 }
 
 
-export const loginUser = async (data: { email: string, password: string }) => {
+export const loginPatient = async (data: { email: string, password: string }) => {
     try {
-        const user = await userModel.findOne({ email: data.email }, { __v: 0 });
+        const patient = await patientModel.findOne({ email: data.email }, { __v: 0 });
 
-        if (!user) {
-            return { status: httpcode.BAD_REQUEST, message: "User does not exist", data: null };
+        if (!patient) {
+            return { status: httpcode.BAD_REQUEST, message: "patient does not exist", data: null };
         }
 
-        const isMatch = await bcrypt.compare(data.password, user.password)
+        const isMatch = await bcrypt.compare(data.password, patient.password);
 
         if (isMatch) {
-            const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET as string);
-            return { status: httpcode.OK, token: token, message: "User Successfuly logged in", data: user };
+            const token = jwt.sign({ id: patient._id }, process.env.JWT_SECRET as string);
+            return { status: httpcode.OK, token: token, message: "Patient Successfuly logged in", data: patient };
         }
 
         return { status: httpcode.BAD_REQUEST, message: "Invalid credentials", data: null };
@@ -66,15 +66,15 @@ export const loginUser = async (data: { email: string, password: string }) => {
 }
 
 
-export const getProfile = async function (userId: string) {
+export const getProfile = async function (patientId: string) {
     try {
-        const userData = await userModel.findById(userId, { __v: 0 });
+        const patientData = await patientModel.findById(patientId, { __v: 0 });
 
-        if (!userData) {
-            return { status: httpcode.NOT_FOUND, message: "USER NOT FOUND", data: null };
+        if (!patientData) {
+            return { status: httpcode.NOT_FOUND, message: "PATIENT NOT FOUND", data: null };
         }
 
-        return { status: httpcode.OK, message: "User Details", data: userData };
+        return { status: httpcode.OK, message: "Patient Details", data: patientData };
 
     } catch (error: any) {
         return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null }
@@ -85,7 +85,7 @@ export const getProfile = async function (userId: string) {
 export const updateProfile = async function (data: any) {
     try {
 
-        const userData = await userModel.findByIdAndUpdate(data.userId, {
+        const patientData = await patientModel.findByIdAndUpdate(data.patientId, {
             name: data.name,
             phone: data.phone,
             address: JSON.parse(data.address),
@@ -93,11 +93,11 @@ export const updateProfile = async function (data: any) {
             gender: data.gender
         }, { new: true });
 
-        if (!userData) {
-            return { status: httpcode.BAD_REQUEST, message: "User not found", data: null };
+        if (!patientData) {
+            return { status: httpcode.BAD_REQUEST, message: "Patient not found", data: null };
         }
 
-        return { status: httpcode.OK, message: "User has been updated", data: null };
+        return { status: httpcode.OK, message: "Patient has been updated", data: null };
 
     } catch (error: any) {
         return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
@@ -106,7 +106,7 @@ export const updateProfile = async function (data: any) {
 
 
 export const bookAppointment = async function (data: {
-    userId: string,
+    patientId: string,
     docId: string,
     slotDate: string,
     slotTime: string
@@ -132,14 +132,14 @@ export const bookAppointment = async function (data: {
             slots_booked[data.slotDate].push(data.slotTime);
         }
 
-        const userData = await userModel.findById(data.userId, { __v: 0 });
+        const patientData = await patientModel.findById(data.patientId, { __v: 0 });
 
         delete docData.slots_booked
 
         const appointmentData = {
-            userId: data.userId,
-            docId: data.userId,
-            userData,
+            patientId: data.patientId,
+            docId: data.docId,
+            patientData,
             docData,
             amount: docData.fees,
             slotTime: data.slotTime,
@@ -162,11 +162,11 @@ export const bookAppointment = async function (data: {
 
 
 
-export const cancellAppointment = async function (appointmentId: string, userId: string) {
+export const cancellAppointment = async function (appointmentId: string, patientId: string) {
     try {
-        const appointmentData = await appointmentModel.findById(appointmentId)
+        const appointmentData = await appointmentModel.findById({ _id: appointmentId });
 
-        if (appointmentData?.userId !== userId) {
+        if (appointmentData?.patientId !== patientId) {
             return { status: httpcode.UNAUTHORIZED, message: "Unauthorized action", data: null };
         }
 
@@ -192,11 +192,11 @@ export const cancellAppointment = async function (appointmentId: string, userId:
 }
 
 
-export const listOfAppointments = async function (userId: string) {
+export const listOfAppointments = async function (patientId: string) {
     try {
-        const appointments = await appointmentModel.find({ userId }, { __v: 0 });
+        const appointments = await appointmentModel.find({ patientId }, { __v: 0 });
         if (!appointments) {
-            return { status: httpcode.NOT_FOUND, message: `No appointment for user id ${userId}`, data: null };
+            return { status: httpcode.NOT_FOUND, message: `No appointment for patient id ${patientId}`, data: null };
         }
 
         return { status: httpcode.OK, message: "List of appointments", data: appointments };
