@@ -21,7 +21,7 @@ const authUser = async (req: Request, res: Response, next: NextFunction): Promis
         if (typeof token_decode !== "string" && "id" in token_decode) {
             req.body.userId = token_decode.id;
             next();
-        }else  {
+        } else  {
             res.status(500).json({
             status: 500,
             message: "Token is not valid",

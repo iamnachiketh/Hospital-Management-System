@@ -138,7 +138,7 @@ export const bookAppointment = async function (data: {
 
         const appointmentData = {
             userId: data.userId,
-            docId: data.userId,
+            docId: data.docId,
             userData,
             docData,
             amount: docData.fees,
@@ -164,7 +164,7 @@ export const bookAppointment = async function (data: {
 
 export const cancellAppointment = async function (appointmentId: string, userId: string) {
     try {
-        const appointmentData = await appointmentModel.findById(appointmentId)
+        const appointmentData = await appointmentModel.findById({ _id: appointmentId });
 
         if (appointmentData?.userId !== userId) {
             return { status: httpcode.UNAUTHORIZED, message: "Unauthorized action", data: null };

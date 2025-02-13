@@ -163,7 +163,7 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
             slotDate,
             slotTime
         }
-
+        
         const { error } = Validation.userAppointmentReqValidation.validate(data);
 
         if(error){
@@ -213,7 +213,7 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await UserService.cancellAppointment(userId, appointmentId);
+        const response = await UserService.cancellAppointment(appointmentId, userId);
 
         res.status(response.status).json({
             status: response.status,
