@@ -190,3 +190,18 @@ export const cancellAppointment = async function (appointmentId: string, userId:
         return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
     }
 }
+
+
+export const listOfAppointments = async function (userId: string) {
+    try {
+        const appointments = await appointmentModel.find({ userId }, { __v: 0 });
+        if (!appointments) {
+            return { status: httpcode.NOT_FOUND, message: `No appointment for user id ${userId}`, data: null };
+        }
+
+        return { status: httpcode.OK, message: "List of appointments", data: appointments };
+
+    } catch (error: any) {
+        return { status: httpcode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+}

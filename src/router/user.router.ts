@@ -11,6 +11,7 @@ userRouter.get("/get-profile", authUser, UserController.handleGetProfile);
 userRouter.post("/update-profile", authUser, UserController.handleUpdateProfile);
 userRouter.post("/book-appointment", authUser, UserController.handleBookAppointment);
 userRouter.post("/cancel-appointment", authUser, UserController.handelCancelAppointment);
+userRouter.get("/list-appointments", authUser, UserController.handelListAppointment);
 
 
 

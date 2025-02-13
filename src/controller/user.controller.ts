@@ -93,17 +93,6 @@ export const handleGetProfile = async (req: Request, res: Response) => {
     try {
         const id = req.query.id as string;
 
-        const { error } = Validation.userProfileValidate.validate(id);
-
-        if (error) {
-            res.status(400).json({
-                status: 400,
-                message: "User id is required",
-                data: null
-            });
-            return;
-        }
-
         const response = await UserService.getProfile(id);
 
         res.status(response.status).json({
@@ -225,6 +214,29 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
         }
 
         const response = await UserService.cancellAppointment(userId, appointmentId);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
+}
+
+
+export const handelListAppointment = async (req: Request, res: Response) => {
+    try {
+
+        const userId  = req.query.id as string;
+
+        const response = await UserService.listOfAppointments(userId);
 
         res.status(response.status).json({
             status: response.status,
