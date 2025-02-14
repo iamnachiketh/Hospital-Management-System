@@ -1,6 +1,7 @@
 import jwt from "jsonwebtoken";
 import httpCode from "http-status-codes";
 import { doctorModel } from "../models/doctor.model";
+import { appointmentModel } from "../models/appointment.model";
 
 export const loginAdmin = async function (email: string, password: string) {
     try {
@@ -15,7 +16,7 @@ export const loginAdmin = async function (email: string, password: string) {
 }
 
 
-export const addAdmin = async function (doctorData: any) {
+export const addDoctor = async function (doctorData: any) {
     try {
         const newDoctor = new doctorModel(doctorData);
         await newDoctor.save();
@@ -24,3 +25,41 @@ export const addAdmin = async function (doctorData: any) {
         return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
     }
 }
+
+
+export const appointmentAdmin = async function () {
+    try {
+        const appointments = await appointmentModel.find({}, { __v: 0 });
+
+        return { status: httpCode.OK, message: "List of Appointments", data: appointments };
+
+    } catch (error: any) {
+        return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+}
+
+
+export const appointmentCancel = async function (appointmentId: string) {
+    try {
+        const response = await appointmentModel.findByIdAndUpdate(appointmentId, { cancelled: true }, { new: true });
+
+        if (!response) {
+            return { status: httpCode.NOT_FOUND, message: `No Appointment found with id ${appointmentId}`, data: null };
+        }
+
+        return { status: httpCode.OK, message: "Appointment has been cancled", data: response };
+
+    } catch (error: any) {
+        return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+}
+
+
+export const allDoctors = async function () {
+    try {
+        const doctors = await doctorModel.find({}, { __v: 0 });
+        return { status: httpCode.OK, message: "List of Doctors", data: doctors };
+    } catch (error: any) {
+        return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+} 

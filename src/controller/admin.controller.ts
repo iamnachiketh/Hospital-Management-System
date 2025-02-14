@@ -37,7 +37,7 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
 
         const { error } = addDoctor.validate({ name, email, password, speciality, degree, experience, about, fees, address });
 
-        if(error){
+        if (error) {
             res.status(400).json({
                 status: 400,
                 message: error.message,
@@ -45,8 +45,8 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
             });
             return;
         }
-        
-        const salt = await bcrypt.genSalt(10); 
+
+        const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
 
         const doctorData = {
@@ -63,12 +63,68 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
             date: Date.now()
         }
 
-        const response = await AdminService.addAdmin(doctorData);
+        const response = await AdminService.addDoctor(doctorData);
 
         res.status(response.status).json({
             status: response.status,
             message: response.message,
             data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({ status: 500, message: error.message, data: null });
+    }
+}
+
+
+
+export const handelAppointmentsAdmin = async (req: Request, res: Response) => {
+    try {
+
+        console.log(req.body);
+        const response = await AdminService.appointmentAdmin();
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({ status: 500, message: error.message, data: null });
+    }
+
+}
+
+
+export const handelAppointmentCancel = async (req: Request, res: Response) => {
+    try {
+
+        const { appointmentId } = req.body;
+
+        const response = await AdminService.appointmentCancel(appointmentId);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+    } catch (error: any) {
+        res.status(500).json({ status: 500, message: error.message, data: null });
+    }
+
+}
+
+
+export const handelAllDoctors = async (req: Request, res: Response) => {
+    try {
+
+        console.log(req.body);
+        const response = await AdminService.allDoctors();
+        res.status(response.status).json({ 
+            status: response.status, 
+            message: response.message, 
+            data: response.data 
         });
 
     } catch (error: any) {
