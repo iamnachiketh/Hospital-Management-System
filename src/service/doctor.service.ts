@@ -3,6 +3,7 @@ import { appointmentModel } from "../models/appointment.model";
 // import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import httpCode from "http-status-codes";
+import { prescriptionModel } from "../models/prescription.model";
 
 
 export const loginDoctor = async function (email: string, password: string) {
@@ -177,6 +178,32 @@ export const updateProfile = async function (data: {
         }
 
         return { status: httpCode.OK, message: "Doctor Details", data: response };
+
+    } catch (error: any) {
+        return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };
+    }
+}
+
+
+
+export const addPrescription = async function (appointmentId: string, medication: string) {
+    try {
+        const appointmentData = await appointmentModel.findOne({ _id: appointmentId }, { __v: 0 });
+
+        if (!appointmentData) {
+            return { status: httpCode.NOT_FOUND, message: "Appointment not found", data: null };
+        }
+
+        const prescriptionData = {
+            appointmentId,
+            patientId: appointmentData.patientId,
+            medication
+        }
+
+        const prescription = new prescriptionModel(prescriptionData);
+        await prescription.save();
+
+        return { status: httpCode.CREATED, message: "Prescription has been genetated", data: null };
 
     } catch (error: any) {
         return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };

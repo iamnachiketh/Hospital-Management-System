@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 import IPrescription from "../interface/prescription.model";
 
 
-const prescriptionModel = new mongoose.Schema<IPrescription>({
+const prescriptionSchema = new mongoose.Schema<IPrescription>({
     patientId: { type: String, required: true },
-    docId: { type: String, required: true },
+    appointmentId: { type: String, required: true },
     medication: { type: String, required: true }
 }, { timestamps: true });
 
 
-export const prescription = mongoose.model<IPrescription>("prescription", prescriptionModel);
+export const prescriptionModel = mongoose.model<IPrescription>("prescription", prescriptionSchema);

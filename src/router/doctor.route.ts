@@ -13,6 +13,7 @@ doctorRouter.put("/complete-appointment", authDoctor, DoctorController.handelApp
 doctorRouter.get("/dashboard", authDoctor, DoctorController.handelDoctorDashboard);
 doctorRouter.get("/profile", authDoctor, DoctorController.handelDoctorProfile);
 doctorRouter.put("/update-profile", authDoctor, DoctorController.handelUpdateDoctorProfile);
+doctorRouter.post("/prescription", authDoctor, DoctorController.handelAddPrescription);
 
 
 export default doctorRouter;
