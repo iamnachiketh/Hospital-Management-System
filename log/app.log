@@ -1,0 +1,56 @@
+[2025-02-15 10:35:21.858 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-15 10:35:54.039 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-15 10:35:54.050 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-15 10:36:31.645 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-15 10:36:31.652 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-15 10:36:31.675 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 04:50:24.998 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 04:50:25.010 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 04:50:25.049 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 04:52:36.543 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"400","responseTime":"32.954"}[39m
+[2025-02-16 04:53:07.208 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"57.149"}[39m
+[2025-02-16 04:54:36.380 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.936"}[39m
+[2025-02-16 04:57:49.296 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 04:57:49.310 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 04:57:49.342 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 04:57:57.225 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"8.460"}[39m
+[2025-02-16 05:01:18.995 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"68.951"}[39m
+[2025-02-16 05:02:37.687 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"23.667"}[39m
+[2025-02-16 05:02:47.887 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"3.172"}[39m
+[2025-02-16 05:03:50.816 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"3.270"}[39m
+[2025-02-16 05:05:38.714 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"8.182"}[39m
+[2025-02-16 05:06:09.436 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"25.672"}[39m
+[2025-02-16 05:06:29.029 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"15.806"}[39m
+[2025-02-16 05:06:37.344 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"3.685"}[39m
+[2025-02-16 05:06:43.366 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"3.057"}[39m
+[2025-02-16 05:07:09.382 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"3.595"}[39m
+[2025-02-16 05:09:10.354 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:09:10.366 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:09:10.405 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:09:15.203 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"8.115"}[39m
+[2025-02-16 05:10:40.022 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:10:40.030 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:10:40.055 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:10:45.591 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"8.615"}[39m
+[2025-02-16 05:15:30.143 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:15:30.151 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:15:30.183 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:16:35.249 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"77.057"}[39m
+[2025-02-16 05:17:21.191 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"5.411"}[39m
+[2025-02-16 05:17:51.783 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"28.704"}[39m
+[2025-02-16 05:18:11.113 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.301"}[39m
+[2025-02-16 05:19:55.533 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:19:55.543 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:19:55.568 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:20:13.099 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"8.645"}[39m
+[2025-02-16 05:21:27.474 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:21:27.482 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:21:27.508 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:21:47.672 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"13.242"}[39m
+[2025-02-16 05:26:58.339 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:26:58.352 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:26:58.378 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 05:27:10.814 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"11.303"}[39m
+[2025-02-16 05:28:31.538 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 05:28:31.550 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 05:28:31.580 PM] [32minfo[39m: 	[32mDatabase has been connected[39m

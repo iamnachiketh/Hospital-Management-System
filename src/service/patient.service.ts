@@ -2,13 +2,16 @@ import { patientModel } from "../models/patient.model";
 import { doctorModel } from "../models/doctor.model";
 import { appointmentModel } from "../models/appointment.model";
 import { prescriptionModel } from "../models/prescription.model";
+import redisClient from "../config/connect.redis";
 import jwt from "jsonwebtoken";
 import httpCode from "http-status-codes";
 import bcrypt from "bcryptjs";
 import stripe from "stripe";
 
 
-const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY as string);
+const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY ?? " ", {
+    apiVersion: "2025-01-27.acacia"
+} as stripe.StripeConfig);
 
 
 export const registerPatient = async function (data: any) {
@@ -116,6 +119,9 @@ export const bookAppointment = async function (data: {
     slotDate: string,
     slotTime: string
 }) {
+
+    const redisAppointmentListKey = `appointments:${data.patientId}`;
+
     try {
         const docData = await doctorModel.findById(data.docId, { __v: 0 });
 
@@ -157,6 +163,20 @@ export const bookAppointment = async function (data: {
 
         await doctorModel.findByIdAndUpdate(data.docId, { slots_booked })
 
+        let listOfAppointmentsRedis = await redisClient.lRange(redisAppointmentListKey, -1, 0);
+
+        listOfAppointmentsRedis.push(JSON.stringify(newAppointment));
+
+        await redisClient.del(redisAppointmentListKey);
+
+        const pipeline = redisClient.multi();
+
+        listOfAppointmentsRedis.forEach((value) => pipeline.rPush(redisAppointmentListKey, value));
+
+        pipeline.expire(redisAppointmentListKey, 3600);
+
+        await pipeline.exec();
+
         return { status: httpCode.CREATED, message: "Appointment Booked", data: newAppointment }
 
     } catch (error: any) {
@@ -168,6 +188,9 @@ export const bookAppointment = async function (data: {
 
 
 export const cancellAppointment = async function (appointmentId: string, patientId: string) {
+
+    const redisAppointmentListKey = `appointments:${patientId}`;
+
     try {
         const appointmentData = await appointmentModel.findById({ _id: appointmentId });
 
@@ -186,6 +209,21 @@ export const cancellAppointment = async function (appointmentId: string, patient
         if (slots_booked && slots_booked[slotDate]) {
             slots_booked[slotDate] = slots_booked[slotDate].filter((e: any) => e !== slotTime);
             await doctorModel.findByIdAndUpdate(docId, { slots_booked });
+
+            let listOfAppointmentsRedis = await redisClient.lRange(redisAppointmentListKey, -1, 0);
+
+            await redisClient.del(redisAppointmentListKey);
+
+            listOfAppointmentsRedis = listOfAppointmentsRedis.filter((value) => (JSON.parse(value)).patientId !== patientId);
+
+            const pipeline = redisClient.multi();
+
+            listOfAppointmentsRedis.forEach((value) => pipeline.rPush(redisAppointmentListKey, value));
+
+            pipeline.expire(redisAppointmentListKey, 3600);
+
+            await pipeline.exec();
+
             return { status: httpCode.OK, message: "Appointment has been cancled", data: null };
         }
 
@@ -198,10 +236,29 @@ export const cancellAppointment = async function (appointmentId: string, patient
 
 
 export const listOfAppointments = async function (patientId: string) {
+
+    const redisAppointmentListKey = `appointments:${patientId}`;
+
     try {
-        const appointments = await appointmentModel.find({ patientId }, { __v: 0 });
+
+        const isAppointmentListExists = await redisClient.exists(redisAppointmentListKey);
+
+        if (isAppointmentListExists) {
+            const listOfAppointmentsRedis = await redisClient.lRange(redisAppointmentListKey, 0, -1);
+            const newListOfAppointmentsRedis: JSON[] = listOfAppointmentsRedis.map((value) => JSON.parse(value));
+            return { status: httpCode.OK, message: "List of appointments", data: newListOfAppointmentsRedis };
+        }
+
+        const appointments = await appointmentModel.find({ _id: patientId }, { __v: 0 });
         if (!appointments) {
             return { status: httpCode.NOT_FOUND, message: `No appointment for patient id ${patientId}`, data: null };
+        }
+
+        if (appointments.length > 0) {
+            const pipeline = redisClient.multi();
+            appointments.forEach((value) => pipeline.rPush(redisAppointmentListKey, JSON.stringify(value)));
+            pipeline.expire(redisAppointmentListKey, 3600);
+            await pipeline.exec();
         }
 
         return { status: httpCode.OK, message: "List of appointments", data: appointments };
@@ -261,15 +318,15 @@ export const paymentStripe = async function (appointmentId: string, origin: any)
     }
 }
 
-export const verifyStripe = async function (appointmentId: string, status: number ) {
-    try{
+export const verifyStripe = async function (appointmentId: string, status: number) {
+    try {
         if (status === 201) {
             await appointmentModel.findByIdAndUpdate(appointmentId, { payment: true })
             return { status: httpCode.OK, message: "Payment Successful", data: null };
         }
 
         return { status: httpCode.METHOD_FAILURE, message: "Payment Failed", data: null };
-    }catch(error: any){
+    } catch (error: any) {
         return { status: httpCode.INTERNAL_SERVER_ERROR, message: "Payment Failed", data: null };
 
     }
