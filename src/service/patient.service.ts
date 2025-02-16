@@ -249,11 +249,12 @@ export const listOfAppointments = async function (patientId: string) {
             return { status: httpCode.OK, message: "List of appointments", data: newListOfAppointmentsRedis };
         }
 
-        const appointments = await appointmentModel.find({ _id: patientId }, { __v: 0 });
-        if (!appointments) {
+        const appointments = await appointmentModel.find({ patientId }, { __v: 0 });
+        if (!appointments.length) {
             return { status: httpCode.NOT_FOUND, message: `No appointment for patient id ${patientId}`, data: null };
         }
 
+        
         if (appointments.length > 0) {
             const pipeline = redisClient.multi();
             appointments.forEach((value) => pipeline.rPush(redisAppointmentListKey, JSON.stringify(value)));

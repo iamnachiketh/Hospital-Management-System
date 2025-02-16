@@ -52,3 +52,407 @@
 [2025-02-16 05:30:28.577 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
 [2025-02-16 05:30:28.612 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
 [2025-02-16 05:30:38.083 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"11.337"}[39m
+[2025-02-16 08:14:14.213 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:14:14.223 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:14:14.252 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:14:35.856 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/docs","status":"404","responseTime":"4.272"}[39m
+[2025-02-16 08:15:04.874 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/docs","status":"404","responseTime":"0.486"}[39m
+[2025-02-16 08:15:21.973 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs","status":"301","responseTime":"2.046"}[39m
+[2025-02-16 08:15:21.979 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"200","responseTime":"2.894"}[39m
+[2025-02-16 08:15:21.998 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.332"}[39m
+[2025-02-16 08:15:22.003 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"200","responseTime":"7.894"}[39m
+[2025-02-16 08:15:22.008 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"200","responseTime":"7.700"}[39m
+[2025-02-16 08:15:22.018 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"200","responseTime":"7.396"}[39m
+[2025-02-16 08:15:22.248 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"200","responseTime":"1.823"}[39m
+[2025-02-16 08:19:02.059 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:19:02.068 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:19:02.099 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:19:09.176 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.289"}[39m
+[2025-02-16 08:19:09.189 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.520"}[39m
+[2025-02-16 08:19:09.195 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.276"}[39m
+[2025-02-16 08:19:09.197 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.769"}[39m
+[2025-02-16 08:19:09.198 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.949"}[39m
+[2025-02-16 08:19:09.256 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.757"}[39m
+[2025-02-16 08:27:05.500 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:27:05.513 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:27:05.543 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:27:10.007 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.860"}[39m
+[2025-02-16 08:27:10.020 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.323"}[39m
+[2025-02-16 08:27:10.024 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.216"}[39m
+[2025-02-16 08:27:10.025 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.380"}[39m
+[2025-02-16 08:27:10.026 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.091"}[39m
+[2025-02-16 08:27:10.082 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.781"}[39m
+[2025-02-16 08:27:16.006 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.951"}[39m
+[2025-02-16 08:27:16.019 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.201"}[39m
+[2025-02-16 08:27:16.022 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"5.225"}[39m
+[2025-02-16 08:27:16.024 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.460"}[39m
+[2025-02-16 08:27:16.025 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"6.697"}[39m
+[2025-02-16 08:27:16.101 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.926"}[39m
+[2025-02-16 08:27:17.365 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.951"}[39m
+[2025-02-16 08:27:17.381 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.689"}[39m
+[2025-02-16 08:27:17.383 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.313"}[39m
+[2025-02-16 08:27:17.385 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.039"}[39m
+[2025-02-16 08:27:17.386 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.927"}[39m
+[2025-02-16 08:27:17.439 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.781"}[39m
+[2025-02-16 08:29:13.050 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.252"}[39m
+[2025-02-16 08:29:13.066 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.228"}[39m
+[2025-02-16 08:29:13.070 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.961"}[39m
+[2025-02-16 08:29:13.072 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.361"}[39m
+[2025-02-16 08:29:13.075 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"2.599"}[39m
+[2025-02-16 08:29:13.139 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.771"}[39m
+[2025-02-16 08:31:14.958 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:31:14.968 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:31:14.999 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:31:19.289 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.039"}[39m
+[2025-02-16 08:31:19.306 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.374"}[39m
+[2025-02-16 08:31:19.310 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.923"}[39m
+[2025-02-16 08:31:19.311 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.707"}[39m
+[2025-02-16 08:31:19.312 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.205"}[39m
+[2025-02-16 08:31:19.366 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.807"}[39m
+[2025-02-16 08:31:21.450 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.954"}[39m
+[2025-02-16 08:31:21.467 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.228"}[39m
+[2025-02-16 08:31:21.469 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"4.315"}[39m
+[2025-02-16 08:31:21.470 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.708"}[39m
+[2025-02-16 08:31:21.471 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.718"}[39m
+[2025-02-16 08:31:21.544 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.900"}[39m
+[2025-02-16 08:33:54.753 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:33:54.763 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:33:54.792 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:34:04.435 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"5.245"}[39m
+[2025-02-16 08:34:04.449 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.553"}[39m
+[2025-02-16 08:34:04.454 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.443"}[39m
+[2025-02-16 08:34:04.455 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.154"}[39m
+[2025-02-16 08:34:04.457 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.931"}[39m
+[2025-02-16 08:34:04.515 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.884"}[39m
+[2025-02-16 08:36:22.344 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 08:36:22.352 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 08:36:22.378 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 08:36:49.336 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.371"}[39m
+[2025-02-16 08:36:49.350 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.345"}[39m
+[2025-02-16 08:36:49.353 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.446"}[39m
+[2025-02-16 08:36:49.354 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.117"}[39m
+[2025-02-16 08:36:49.356 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"6.811"}[39m
+[2025-02-16 08:36:49.421 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.681"}[39m
+[2025-02-16 09:02:54.612 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.338"}[39m
+[2025-02-16 09:02:54.623 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.003"}[39m
+[2025-02-16 09:02:54.627 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.224"}[39m
+[2025-02-16 09:02:54.629 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.069"}[39m
+[2025-02-16 09:02:54.630 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.899"}[39m
+[2025-02-16 09:02:54.685 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.794"}[39m
+[2025-02-16 09:04:54.028 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:04:54.039 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:04:54.079 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:04:54.095 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"20.414"}[39m
+[2025-02-16 09:04:54.132 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.310"}[39m
+[2025-02-16 09:04:54.140 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"12.383"}[39m
+[2025-02-16 09:04:54.143 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"12.489"}[39m
+[2025-02-16 09:04:54.145 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"13.195"}[39m
+[2025-02-16 09:04:54.473 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.874"}[39m
+[2025-02-16 09:05:51.632 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:05:51.645 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:05:51.674 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:05:56.981 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.137"}[39m
+[2025-02-16 09:05:56.995 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.516"}[39m
+[2025-02-16 09:05:56.998 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"0.991"}[39m
+[2025-02-16 09:05:57.000 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.254"}[39m
+[2025-02-16 09:05:57.002 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.886"}[39m
+[2025-02-16 09:05:57.056 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.626"}[39m
+[2025-02-16 09:06:00.786 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.197"}[39m
+[2025-02-16 09:06:00.799 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.232"}[39m
+[2025-02-16 09:06:00.801 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"5.181"}[39m
+[2025-02-16 09:06:00.802 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.962"}[39m
+[2025-02-16 09:06:00.804 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.601"}[39m
+[2025-02-16 09:06:00.849 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.766"}[39m
+[2025-02-16 09:06:11.378 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.961"}[39m
+[2025-02-16 09:06:11.396 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.303"}[39m
+[2025-02-16 09:06:11.398 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.283"}[39m
+[2025-02-16 09:06:11.399 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.901"}[39m
+[2025-02-16 09:06:11.400 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.197"}[39m
+[2025-02-16 09:06:11.446 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.733"}[39m
+[2025-02-16 09:10:04.772 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.907"}[39m
+[2025-02-16 09:10:04.784 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"0.784"}[39m
+[2025-02-16 09:10:04.787 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.263"}[39m
+[2025-02-16 09:10:04.789 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.490"}[39m
+[2025-02-16 09:10:04.791 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.841"}[39m
+[2025-02-16 09:10:04.844 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.692"}[39m
+[2025-02-16 09:10:19.171 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.907"}[39m
+[2025-02-16 09:10:19.182 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"0.793"}[39m
+[2025-02-16 09:10:19.192 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.235"}[39m
+[2025-02-16 09:10:19.193 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"1.927"}[39m
+[2025-02-16 09:10:19.194 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"2.586"}[39m
+[2025-02-16 09:10:19.241 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.703"}[39m
+[2025-02-16 09:12:38.296 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:12:38.306 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:12:38.336 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:12:58.550 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:12:58.563 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:12:58.590 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:13:03.071 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.276"}[39m
+[2025-02-16 09:13:03.086 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.627"}[39m
+[2025-02-16 09:13:03.091 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.441"}[39m
+[2025-02-16 09:13:03.093 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.865"}[39m
+[2025-02-16 09:13:03.094 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.629"}[39m
+[2025-02-16 09:13:03.150 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.806"}[39m
+[2025-02-16 09:13:04.037 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.966"}[39m
+[2025-02-16 09:13:04.055 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.198"}[39m
+[2025-02-16 09:13:04.057 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"4.569"}[39m
+[2025-02-16 09:13:04.059 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.230"}[39m
+[2025-02-16 09:13:04.060 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.416"}[39m
+[2025-02-16 09:13:04.111 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.807"}[39m
+[2025-02-16 09:13:04.630 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.974"}[39m
+[2025-02-16 09:13:04.644 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.643"}[39m
+[2025-02-16 09:13:04.646 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.672"}[39m
+[2025-02-16 09:13:04.647 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.329"}[39m
+[2025-02-16 09:13:04.648 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.897"}[39m
+[2025-02-16 09:13:04.698 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.706"}[39m
+[2025-02-16 09:13:04.838 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.890"}[39m
+[2025-02-16 09:13:04.851 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"0.837"}[39m
+[2025-02-16 09:13:04.854 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.230"}[39m
+[2025-02-16 09:13:04.855 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"2.330"}[39m
+[2025-02-16 09:13:04.857 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.413"}[39m
+[2025-02-16 09:13:04.907 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.857"}[39m
+[2025-02-16 09:13:05.041 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.244"}[39m
+[2025-02-16 09:13:05.057 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.351"}[39m
+[2025-02-16 09:13:05.059 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.796"}[39m
+[2025-02-16 09:13:05.060 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.245"}[39m
+[2025-02-16 09:13:05.062 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.201"}[39m
+[2025-02-16 09:13:05.114 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.762"}[39m
+[2025-02-16 09:13:05.249 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.087"}[39m
+[2025-02-16 09:13:05.264 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.523"}[39m
+[2025-02-16 09:13:05.265 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.975"}[39m
+[2025-02-16 09:13:05.266 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.575"}[39m
+[2025-02-16 09:13:05.268 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.727"}[39m
+[2025-02-16 09:13:05.324 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.873"}[39m
+[2025-02-16 09:13:05.442 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.123"}[39m
+[2025-02-16 09:13:05.457 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.370"}[39m
+[2025-02-16 09:13:05.459 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.467"}[39m
+[2025-02-16 09:13:05.460 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.213"}[39m
+[2025-02-16 09:13:05.461 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.107"}[39m
+[2025-02-16 09:13:05.523 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.674"}[39m
+[2025-02-16 09:13:05.629 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.250"}[39m
+[2025-02-16 09:13:05.645 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"0.920"}[39m
+[2025-02-16 09:13:05.650 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.320"}[39m
+[2025-02-16 09:13:05.652 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.538"}[39m
+[2025-02-16 09:13:05.654 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.723"}[39m
+[2025-02-16 09:13:05.728 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.796"}[39m
+[2025-02-16 09:13:05.845 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.220"}[39m
+[2025-02-16 09:13:05.862 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"0.968"}[39m
+[2025-02-16 09:13:05.865 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.211"}[39m
+[2025-02-16 09:13:05.867 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.202"}[39m
+[2025-02-16 09:13:05.869 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.376"}[39m
+[2025-02-16 09:13:05.926 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.836"}[39m
+[2025-02-16 09:13:06.037 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.183"}[39m
+[2025-02-16 09:13:06.056 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.228"}[39m
+[2025-02-16 09:13:06.058 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.442"}[39m
+[2025-02-16 09:13:06.059 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.499"}[39m
+[2025-02-16 09:13:06.061 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.849"}[39m
+[2025-02-16 09:13:06.123 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.787"}[39m
+[2025-02-16 09:13:06.230 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.079"}[39m
+[2025-02-16 09:13:06.244 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.206"}[39m
+[2025-02-16 09:13:06.246 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.172"}[39m
+[2025-02-16 09:13:06.248 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.656"}[39m
+[2025-02-16 09:13:06.249 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.731"}[39m
+[2025-02-16 09:13:06.303 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.851"}[39m
+[2025-02-16 09:13:06.431 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.053"}[39m
+[2025-02-16 09:13:06.446 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.217"}[39m
+[2025-02-16 09:13:06.447 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.443"}[39m
+[2025-02-16 09:13:06.449 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.266"}[39m
+[2025-02-16 09:13:06.451 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.354"}[39m
+[2025-02-16 09:13:06.517 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.762"}[39m
+[2025-02-16 09:13:06.653 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.401"}[39m
+[2025-02-16 09:13:06.678 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.095"}[39m
+[2025-02-16 09:13:06.682 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.364"}[39m
+[2025-02-16 09:13:06.684 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.212"}[39m
+[2025-02-16 09:13:06.686 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.657"}[39m
+[2025-02-16 09:13:06.760 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.934"}[39m
+[2025-02-16 09:13:12.950 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/","status":"404","responseTime":"1.681"}[39m
+[2025-02-16 09:13:20.862 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.014"}[39m
+[2025-02-16 09:13:20.876 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.273"}[39m
+[2025-02-16 09:13:20.877 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.277"}[39m
+[2025-02-16 09:13:20.878 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.165"}[39m
+[2025-02-16 09:13:20.879 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.698"}[39m
+[2025-02-16 09:15:58.211 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:15:58.222 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:15:58.246 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:18:14.602 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:18:14.611 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:18:14.638 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:18:19.689 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.161"}[39m
+[2025-02-16 09:18:19.703 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"3.815"}[39m
+[2025-02-16 09:18:19.705 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.560"}[39m
+[2025-02-16 09:18:19.706 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.248"}[39m
+[2025-02-16 09:18:19.708 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.422"}[39m
+[2025-02-16 09:18:19.823 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.732"}[39m
+[2025-02-16 09:18:55.032 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:18:55.041 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:18:55.065 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:21:50.799 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:21:50.821 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:21:50.897 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:22:19.774 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"8.989"}[39m
+[2025-02-16 09:22:19.784 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.514"}[39m
+[2025-02-16 09:22:19.788 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.393"}[39m
+[2025-02-16 09:22:19.790 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.739"}[39m
+[2025-02-16 09:22:19.792 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.033"}[39m
+[2025-02-16 09:22:19.879 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.621"}[39m
+[2025-02-16 09:26:57.337 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:26:57.350 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:26:57.406 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:27:40.923 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:27:40.930 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:27:40.954 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:28:13.371 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.199"}[39m
+[2025-02-16 09:28:13.383 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.643"}[39m
+[2025-02-16 09:28:13.388 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"7.146"}[39m
+[2025-02-16 09:28:13.389 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.347"}[39m
+[2025-02-16 09:28:13.392 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.043"}[39m
+[2025-02-16 09:28:13.455 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.730"}[39m
+[2025-02-16 09:28:43.515 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:28:43.533 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:28:43.576 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:29:30.894 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:29:30.906 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:29:30.938 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:32:00.912 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:32:00.923 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:32:00.951 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:32:30.486 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:32:30.494 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:32:30.517 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:32:40.182 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"2.865"}[39m
+[2025-02-16 09:32:40.192 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.241"}[39m
+[2025-02-16 09:32:40.197 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.436"}[39m
+[2025-02-16 09:32:40.199 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"3.668"}[39m
+[2025-02-16 09:32:40.200 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.991"}[39m
+[2025-02-16 09:32:40.264 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.630"}[39m
+[2025-02-16 09:33:32.494 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:33:32.502 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:33:32.526 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:33:54.913 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.505"}[39m
+[2025-02-16 09:33:54.926 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.353"}[39m
+[2025-02-16 09:33:54.929 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"4.167"}[39m
+[2025-02-16 09:33:54.930 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.720"}[39m
+[2025-02-16 09:33:54.931 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.541"}[39m
+[2025-02-16 09:33:55.017 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.640"}[39m
+[2025-02-16 09:36:02.592 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:36:02.600 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:36:02.624 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:36:07.896 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"2.748"}[39m
+[2025-02-16 09:36:07.913 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.501"}[39m
+[2025-02-16 09:36:07.917 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"6.282"}[39m
+[2025-02-16 09:36:07.918 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.315"}[39m
+[2025-02-16 09:36:07.920 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.254"}[39m
+[2025-02-16 09:36:08.008 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.665"}[39m
+[2025-02-16 09:36:19.709 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"404","responseTime":"1.186"}[39m
+[2025-02-16 09:39:01.252 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"404","responseTime":"0.359"}[39m
+[2025-02-16 09:40:00.901 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:40:00.912 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:40:00.941 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:40:18.537 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.373"}[39m
+[2025-02-16 09:40:18.553 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.388"}[39m
+[2025-02-16 09:40:18.555 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"5.246"}[39m
+[2025-02-16 09:40:18.556 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.083"}[39m
+[2025-02-16 09:40:18.557 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.636"}[39m
+[2025-02-16 09:40:18.635 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.669"}[39m
+[2025-02-16 09:40:26.423 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"404","responseTime":"0.917"}[39m
+[2025-02-16 09:41:01.995 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"404","responseTime":"0.731"}[39m
+[2025-02-16 09:41:32.432 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"404","responseTime":"0.476"}[39m
+[2025-02-16 09:43:29.411 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"404","responseTime":"0.592"}[39m
+[2025-02-16 09:44:11.247 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"404","responseTime":"0.407"}[39m
+[2025-02-16 09:44:56.107 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:44:56.121 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:44:56.148 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:45:01.572 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"404","responseTime":"3.014"}[39m
+[2025-02-16 09:45:11.680 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"404","responseTime":"0.547"}[39m
+[2025-02-16 09:49:59.168 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:49:59.177 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:49:59.206 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:50:21.809 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.373"}[39m
+[2025-02-16 09:50:21.823 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.715"}[39m
+[2025-02-16 09:50:21.827 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"7.119"}[39m
+[2025-02-16 09:50:21.828 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.127"}[39m
+[2025-02-16 09:50:21.830 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"4.749"}[39m
+[2025-02-16 09:50:22.021 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.910"}[39m
+[2025-02-16 09:50:29.490 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"1.940"}[39m
+[2025-02-16 09:50:29.507 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.344"}[39m
+[2025-02-16 09:50:29.509 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"4.272"}[39m
+[2025-02-16 09:50:29.510 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.366"}[39m
+[2025-02-16 09:50:29.512 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"5.615"}[39m
+[2025-02-16 09:50:29.607 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.819"}[39m
+[2025-02-16 09:50:35.994 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.798"}[39m
+[2025-02-16 09:50:36.009 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.405"}[39m
+[2025-02-16 09:50:36.011 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"2.961"}[39m
+[2025-02-16 09:50:36.012 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"2.048"}[39m
+[2025-02-16 09:50:36.013 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"2.631"}[39m
+[2025-02-16 09:51:15.770 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 09:51:15.778 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 09:51:15.804 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 09:51:21.722 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.542"}[39m
+[2025-02-16 09:51:21.735 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.323"}[39m
+[2025-02-16 09:51:21.738 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"5.088"}[39m
+[2025-02-16 09:51:21.739 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"5.610"}[39m
+[2025-02-16 09:51:21.741 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"6.918"}[39m
+[2025-02-16 09:51:21.815 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.882"}[39m
+[2025-02-16 09:51:56.204 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67adf8be5350426a5a188d63","status":"200","responseTime":"15.902"}[39m
+[2025-02-16 09:53:32.035 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"46.484"}[39m
+[2025-02-16 09:54:33.567 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.510"}[39m
+[2025-02-16 09:55:56.396 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"5.749"}[39m
+[2025-02-16 09:56:13.758 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"304","responseTime":"3.841"}[39m
+[2025-02-16 09:59:01.941 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.599"}[39m
+[2025-02-16 09:59:57.923 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.023"}[39m
+[2025-02-16 10:00:39.519 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.521 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:39.522 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.522 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.534 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:39.536 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.536 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.596 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:39.598 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.598 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.706 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:39.708 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.709 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.861 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:39.863 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:39.863 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:40.079 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:40.082 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:40.082 PM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-16 10:00:40.342 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:00:40.345 PM] [31merror[39m: 	[31mError while connecting to Redis: read ECONNRESET[39m
+[2025-02-16 10:00:40.345 PM] [31merror[39m: 	[31mError while connecting to Redis: read ECONNRESET[39m
+[2025-02-16 10:00:40.656 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:41.018 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:41.426 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:41.886 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:42.392 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:42.898 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:43.414 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:43.919 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:44.423 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:44.925 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:45.438 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:45.943 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:46.458 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:46.974 PM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-16 10:00:47.477 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:01:05.862 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"4.698"}[39m
+[2025-02-16 10:01:38.285 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 10:01:38.292 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:01:38.322 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 10:01:41.177 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"17.096"}[39m
+[2025-02-16 10:02:36.095 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 10:02:36.103 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:02:36.136 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 10:03:14.214 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 10:03:14.222 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:03:14.244 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 10:03:38.985 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 10:03:38.993 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:03:39.017 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 10:03:59.675 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-16 10:03:59.683 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-16 10:03:59.715 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-16 10:04:18.945 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67adf8be5350426a5a188d63","status":"200","responseTime":"22.515"}[39m
+[2025-02-16 10:07:42.786 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/register","status":"201","responseTime":"124.860"}[39m

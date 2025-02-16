@@ -6,6 +6,8 @@ import httpCode from "http-status-codes";
 const authAdmin = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const atoken = req.headers["x-token"] as string;
+
+        console.log(atoken);
         if (!atoken) {
             res.status(httpCode.UNAUTHORIZED).json({
                 status: httpCode.UNAUTHORIZED,
