@@ -1,5 +1,5 @@
 interface IPrescription {
-    docId: String,
+    appointmentId: String,
     patientId: String,
     medication: String
 }

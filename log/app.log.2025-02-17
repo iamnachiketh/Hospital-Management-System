@@ -1,0 +1,101 @@
+[2025-02-17 10:16:42.615 AM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-17 10:16:42.631 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:42.636 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:42.664 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-17 10:16:42.690 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:42.801 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:42.960 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:43.167 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:43.434 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:43.737 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:44.104 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:44.513 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:44.975 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:45.484 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:45.991 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:46.498 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:47.007 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:47.509 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:48.025 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:48.541 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:49.043 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:49.544 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:50.060 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:50.576 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:51.079 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:51.582 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:52.091 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:52.608 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:53.120 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:53.623 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:54.133 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:54.642 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:55.149 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:55.660 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:56.167 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:56.675 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:57.182 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:57.692 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:58.203 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:58.719 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:59.225 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:16:59.734 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:00.242 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:00.750 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:01.259 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:01.767 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:02.278 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:02.785 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:03.295 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:03.798 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:04.308 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:04.817 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:05.326 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:05.836 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:06.346 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:06.853 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:07.357 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:07.863 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:08.374 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:08.877 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:09.383 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:09.893 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:10.404 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:10.910 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:11.421 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:11.930 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:12.441 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:12.947 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:13.455 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:13.965 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:14.475 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:14.985 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-17 10:17:15.494 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-17 10:17:53.779 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"5.707"}[39m
+[2025-02-17 10:17:53.803 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"2.398"}[39m
+[2025-02-17 10:17:53.816 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"1.630"}[39m
+[2025-02-17 10:17:53.819 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"7.957"}[39m
+[2025-02-17 10:17:53.820 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.864"}[39m
+[2025-02-17 10:19:01.408 AM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-17 10:19:01.416 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-17 10:19:01.442 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-17 10:19:05.524 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"4.024"}[39m
+[2025-02-17 10:19:05.536 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"1.475"}[39m
+[2025-02-17 10:19:05.539 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"1.239"}[39m
+[2025-02-17 10:19:05.542 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.602"}[39m
+[2025-02-17 10:19:05.544 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"4.720"}[39m
+[2025-02-17 10:19:05.696 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"0.934"}[39m
+[2025-02-17 10:41:43.752 AM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-17 10:41:43.764 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-17 10:41:43.793 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-17 10:41:54.810 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"3.350"}[39m
+[2025-02-17 10:41:54.825 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"200","responseTime":"0.452"}[39m
+[2025-02-17 10:41:54.827 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"4.933"}[39m
+[2025-02-17 10:41:54.830 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"6.026"}[39m
+[2025-02-17 10:41:54.831 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"7.435"}[39m
+[2025-02-17 10:41:55.076 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/favicon-32x32.png","status":"304","responseTime":"1.032"}[39m
+[2025-02-17 10:42:21.796 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/","status":"304","responseTime":"0.952"}[39m
+[2025-02-17 10:42:21.811 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-init.js","status":"304","responseTime":"0.466"}[39m
+[2025-02-17 10:42:21.815 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui.css","status":"304","responseTime":"2.146"}[39m
+[2025-02-17 10:42:21.817 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-bundle.js","status":"304","responseTime":"2.920"}[39m
+[2025-02-17 10:42:21.818 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/docs/swagger-ui-standalone-preset.js","status":"304","responseTime":"3.993"}[39m

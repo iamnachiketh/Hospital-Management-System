@@ -3,6 +3,7 @@ import * as PatientService from "../service/patient.service";
 import * as Validation from "../validation/patient.validation";
 import bcrypt from "bcryptjs";
 
+
 export const handleRegisterPatient = async (req: Request, res: Response) => {
 
     try {
@@ -162,10 +163,10 @@ export const handleBookAppointment = async (req: Request, res: Response) => {
             slotDate,
             slotTime
         }
-        
+
         const { error } = Validation.patientAppointmentReqValidation.validate(data);
 
-        if(error){
+        if (error) {
             res.status(400).json({
                 status: 400,
                 message: error.message,
@@ -198,12 +199,12 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
 
         const { patientId, appointmentId } = req.body;
 
-        const { error } = Validation.patientAppointmentCancellValidation.validate({ 
-            patientId, 
+        const { error } = Validation.patientAppointmentCancellValidation.validate({
+            patientId,
             appointmentId
         });
 
-        if(error){
+        if (error) {
             res.status(400).json({
                 status: 400,
                 message: error.message,
@@ -233,7 +234,7 @@ export const handelCancelAppointment = async (req: Request, res: Response) => {
 export const handelListAppointment = async (req: Request, res: Response) => {
     try {
 
-        const patientId  = req.query.id as string;
+        const patientId = req.query.id as string;
 
         const response = await PatientService.listOfAppointments(patientId);
 
@@ -250,4 +251,78 @@ export const handelListAppointment = async (req: Request, res: Response) => {
             data: null
         });
     }
+}
+
+
+export const handelGetPrescriptions = async (req: Request, res: Response) => {
+
+    try {
+        const patientId = req.params.id as string;
+
+        const response = await PatientService.getPrescriptions(patientId);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
+
+}
+
+
+export const handelPaymentStripe = async (req: Request, res: Response) => {
+    try {
+
+        const { appointmentId } = req.body;
+        const origin = req.headers["origin"];
+
+        const response = await PatientService.paymentStripe(appointmentId, origin);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data,
+            session_url: response?.session_url
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
+}
+
+
+
+export const handelVerifyStripe = async (req: Request, res: Response) => {
+    try {
+
+        const { appointmentId, status } = req.body;
+
+        const response = await PatientService.verifyStripe(appointmentId, status);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        });
+    }
+
 }

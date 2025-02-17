@@ -157,7 +157,7 @@ export const handelAppointmentComplete = async (req: Request, res: Response) => 
 export const handelDoctorDashboard = async (req: Request, res: Response) => {
     try {
 
-        const  docId  = req.query.id as string;
+        const docId = req.query.id as string;
 
         const response = await DoctorService.doctorDashboard(docId);
 
@@ -177,7 +177,7 @@ export const handelDoctorDashboard = async (req: Request, res: Response) => {
 export const handelDoctorProfile = async (req: Request, res: Response) => {
     try {
 
-        const  docId  = req.query.id as string;
+        const docId = req.query.id as string;
 
         const response = await DoctorService.doctorProfile(docId);
 
@@ -217,5 +217,27 @@ export const handelUpdateDoctorProfile = async (req: Request, res: Response) => 
             message: error.message,
             data: null
         });
+    }
+}
+
+
+export const handelAddPrescription = async (req: Request, res: Response) => {
+    try {
+        const { appointmentId, medication } = req.body;
+
+        const response = await DoctorService.addPrescription(appointmentId, medication);
+
+        res.status(response.status).json({
+            status: response.status,
+            message: response.message,
+            data: response.data
+        });
+
+    } catch (error: any) {
+        res.status(500).json({
+            status: 500,
+            message: error.message,
+            data: null
+        })
     }
 }
