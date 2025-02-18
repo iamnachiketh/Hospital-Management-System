@@ -4124,3 +4124,363 @@
 [31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
 [31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
 [2025-02-18 11:26:56.255 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:33:15.857 AM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\admin.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 11:33:15.877 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:46:14.859 AM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 11:46:14.876 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:47:07.950 AM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 11:47:07.964 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:49:22.083 AM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 11:49:22.099 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:04:19.175 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 12:04:19.197 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:05:25.284 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:05:25.313 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:05:25.388 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:05:28.736 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 12:05:28.749 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:06:02.189 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:06:02.198 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:06:02.241 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:06:02.317 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"44.964"}[39m
+[2025-02-18 12:06:02.342 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.103"}[39m
+[2025-02-18 12:06:02.352 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"0.888"}[39m
+[2025-02-18 12:06:02.363 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.556"}[39m
+[2025-02-18 12:06:05.169 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[2025-02-18 12:06:05.179 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:42.637 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:07:42.658 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:42.709 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:07:42.818 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"54.591"}[39m
+[2025-02-18 12:07:42.854 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.323"}[39m
+[2025-02-18 12:07:42.867 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"1.017"}[39m
+[2025-02-18 12:07:42.882 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"2.432"}[39m
+[2025-02-18 12:07:44.229 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[2025-02-18 12:07:44.246 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:44.572 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[2025-02-18 12:07:44.591 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:08:51.150 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:08:51.158 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:08:51.197 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:08:51.423 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"194.513"}[39m
+[2025-02-18 12:08:51.449 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.288"}[39m
+[2025-02-18 12:08:51.472 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"14.556"}[39m
+[2025-02-18 12:08:51.481 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.366"}[39m
+[2025-02-18 12:08:51.825 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[2025-02-18 12:08:51.843 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:11:47.368 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:11:47.390 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:11:47.468 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:11:53.930 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::4000[39m
+[31mError: listen EADDRINUSE: address already in use :::4000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 12:11:53.986 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:12:54.398 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:12:54.407 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:12:54.443 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:12:54.638 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"166.948"}[39m
+[2025-02-18 12:12:54.661 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"9.188"}[39m
+[2025-02-18 12:12:54.674 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"6.149"}[39m
+[2025-02-18 12:12:54.682 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.240"}[39m
+[2025-02-18 12:14:14.231 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:14:14.240 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:14:14.274 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:14:14.516 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"212.875"}[39m
+[2025-02-18 12:14:14.541 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.151"}[39m
+[2025-02-18 12:14:14.558 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.416"}[39m
+[2025-02-18 12:14:14.566 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.688"}[39m
+[2025-02-18 12:15:23.214 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:15:23.235 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:15:23.313 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:15:26.798 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::3000[39m
+[31mError: listen EADDRINUSE: address already in use :::3000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1937:16)[39m
+[31m    at listenInCluster (node:net:1994:12)[39m
+[31m    at Server.listen (node:net:2099:7)[39m
+[31m    at Function.listen (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\src\index.ts:38:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.<anonymous> (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\test\doctor.test.ts:3:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1554:14)[39m
+[31m    at Module.m._compile (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at node:internal/modules/cjs/loader:1706:10[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1289:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1108:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1311:12)[39m
+[31m    at require (node:internal/modules/helpers:136:16)[39m
+[31m    at Object.exports.requireOrImport (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:53:16)[39m
+[31m    at async Object.exports.loadFilesAsync (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\nodejs\esm-utils.js:100:20)[39m
+[31m    at async singleRun (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run-helpers.js:162:3)[39m
+[31m    at async Object.exports.handler (C:\Users\gauth\OneDrive\Documents\nachiketha\EazyHealth-Backend\node_modules\mocha\lib\cli\run.js:375:5)[39m
+[2025-02-18 12:15:26.819 PM] [32minfo[39m: 	[32mConnected to Redis database[39m

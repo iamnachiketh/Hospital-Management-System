@@ -1,10 +1,6 @@
 import chai from "chai";
 import supertest from "supertest";
 import app from "../src/index";
-// import { patientModel } from "../src/models/patient.model";
-// import { appointmentModel } from "../src/models/appointment.model";
-// import { doctorModel } from "../src/models/doctor.model";
-// import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 
 dotenv.config();

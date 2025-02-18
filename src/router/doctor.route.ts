@@ -132,7 +132,7 @@ doctorRouter.get("/list", DoctorController.handelDoctorList);
  *       500:
  *         description: Server error
  */
-doctorRouter.post("/change-availability", authDoctor, DoctorController.handelChangeAvailablity);
+doctorRouter.put("/change-availability", authDoctor, DoctorController.handelChangeAvailablity);
 
 
 

@@ -1,6 +1,6 @@
 import { doctorModel } from "../models/doctor.model";
 import { appointmentModel } from "../models/appointment.model";
-// import bcrypt from "bcryptjs";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import httpCode from "http-status-codes";
 import { prescriptionModel } from "../models/prescription.model";
@@ -15,9 +15,7 @@ export const loginDoctor = async function (email: string, password: string) {
             return { status: httpCode.BAD_REQUEST, message: "Invalid credentials", data: null };
         }
 
-        // const isMatch = await bcrypt.compare(password, doctor.password)
-
-        const isMatch = password === doctor.password;
+        const isMatch = await bcrypt.compare(password, doctor.password)
 
         if (isMatch) {
             const token = jwt.sign({ id: doctor._id }, process.env.JWT_SECRET as string);
@@ -79,6 +77,11 @@ export const doctorList = async function () {
 export const changeAvailablity = async function (docId: string) {
     try {
         const docData = await doctorModel.findById(docId)
+
+        if (!docData) {
+            return { status: httpCode.NOT_FOUND, message: "Doctor not found", data: null };
+        }
+
         await doctorModel.findByIdAndUpdate(docId, { available: !docData?.available });
         return { status: httpCode.OK, message: "Availablity Changed", data: null };
     } catch (error: any) {
