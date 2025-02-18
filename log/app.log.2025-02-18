@@ -371,3 +371,7 @@
 [2025-02-18 02:18:04.550 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
 [2025-02-18 02:18:05.564 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
 [2025-02-18 02:18:05.597 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:18:25.761 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"178.570"}[39m
+[2025-02-18 09:38:09.617 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 09:38:09.629 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 09:38:09.645 PM] [32minfo[39m: 	[32mDatabase has been connected[39m

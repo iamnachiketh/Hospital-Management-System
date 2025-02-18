@@ -21,7 +21,7 @@ connectDB();
 
 app.use(morgan(morganFormat, {
     stream: {
-        write: (message) => {
+        write: (message: any) => {
             const logObject = {
                 method: message.split(" ")[0],
                 url: message.split(" ")[1],
