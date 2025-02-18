@@ -3,8 +3,8 @@ interface IAppointment {
     docId: string;
     slotDate: string;
     slotTime: string;
-    patientData: Record<string, any>; 
-    docData: Record<string, any>;  
+    patientData: Record<string, any>;
+    docData: Record<string, any>;
     amount: number;
     date: number;
     cancelled?: boolean;

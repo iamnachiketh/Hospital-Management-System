@@ -50,7 +50,7 @@ export const cancelAppointmentDoctor = async function (appointmentId: string, do
         const appointmentData = await appointmentModel.findById(appointmentId)
         if (appointmentData && appointmentData.docId === docId) {
             await appointmentModel.findByIdAndUpdate(appointmentId, { cancelled: true })
-            return { status: httpCode.OK, message: 'Appointment Cancelled', data: null };
+            return { status: httpCode.OK, message: "Appointment Cancelled", data: null };
         }
         return { status: httpCode.BAD_REQUEST, message: "Appointment Cancelled", data: null };
     } catch (error: any) {

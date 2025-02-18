@@ -97,7 +97,7 @@ patientRouter.get("/get-profile", authPatient, PatientController.handleGetProfil
 /**
  * @openapi
  * /api/v1/patients/update-profile:
- *   post:
+ *   put:
  *     summary: Update patient profile
  *     security:
  *       - XTokenAuth: []
@@ -128,7 +128,7 @@ patientRouter.get("/get-profile", authPatient, PatientController.handleGetProfil
  *       '500':
  *         description: Server error
  */
-patientRouter.post("/update-profile", authPatient, PatientController.handleUpdateProfile);
+patientRouter.put("/update-profile", authPatient, PatientController.handleUpdateProfile);
 
 
 /**

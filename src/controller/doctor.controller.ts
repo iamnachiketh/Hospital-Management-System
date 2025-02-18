@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import * as DoctorService from "../service/doctor.service";
 import * as Validation from "../validation/doctor.validation";
+import { logger } from "../logger";
 
 export const handleLoginDoctor = async (req: Request, res: Response) => {
 
@@ -92,9 +93,8 @@ export const handelAppointmentCancel = async (req: Request, res: Response) => {
 
 export const handelDoctorList = async (req: Request, res: Response) => {
     try {
-        const { docId } = req.body;
 
-        console.log(docId);
+        logger.info(req.body);
 
         const response = await DoctorService.doctorList();
 

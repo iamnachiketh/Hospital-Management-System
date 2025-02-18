@@ -1,8 +1,9 @@
 import multer from "multer";
+import { logger } from "../logger";
 
 const storage = multer.diskStorage({
     filename: (req, file, cb) => {
-        console.log(req.body);
+        logger.info(req.body);
         cb(null, file.originalname);
     }
 });

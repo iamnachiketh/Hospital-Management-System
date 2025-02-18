@@ -10,7 +10,7 @@ import swaggerUi from "swagger-ui-express";
 
 export const handleRouter = () => {
     const router = Router();
-    
+
     router.use("/patients", patientRouter);
 
     router.use("/doctors", doctorRouter);
