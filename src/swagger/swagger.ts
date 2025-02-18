@@ -9,11 +9,11 @@ const options: swaggerJsdoc.Options = {
             version: "1.0.0"
         },
         components: {
-            securitySchemes: { 
-                XTokenAuth: {  
-                    type: "apiKey", 
+            securitySchemes: {
+                XTokenAuth: { 
+                    type: "apiKey",
                     in: "header",
-                    name: "x-token", 
+                    name: "x-token",
                     description: "Enter your JWT token here"
                 }
             }
@@ -25,7 +25,7 @@ const options: swaggerJsdoc.Options = {
         ]
     },
     apis: [
-       path.join(__dirname,"../router/*.ts"), 
+       path.join(__dirname,"../router/*.ts"),
        path.join(__dirname,"../models/*.ts")
     ]
 };

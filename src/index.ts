@@ -36,3 +36,6 @@ app.use(morgan(morganFormat, {
 app.use("/api/v1", router.handleRouter());
 
 app.listen(process.env.PORT, () => logger.info(`Server is running in port ${process.env.PORT}`));
+
+
+export default app;

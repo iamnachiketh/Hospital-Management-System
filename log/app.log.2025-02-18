@@ -1,0 +1,373 @@
+[2025-02-18 10:21:47.324 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.329 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.331 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.331 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.334 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.335 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.336 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.396 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.398 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.399 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.506 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.508 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.509 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.663 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.665 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.665 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.867 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:47.869 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:47.869 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:48.136 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:21:48.138 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:48.139 AM] [31merror[39m: 	[31mError while connecting to Redis: Socket closed unexpectedly[39m
+[2025-02-18 10:21:48.449 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:48.810 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:49.216 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:49.679 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:50.183 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:50.689 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:51.195 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:51.703 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:52.207 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:52.711 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:53.221 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:53.727 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:54.229 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:54.736 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:55.246 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:55.756 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:56.263 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:56.767 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:57.275 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:57.780 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:58.282 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:58.785 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:59.292 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:21:59.808 AM] [31merror[39m: 	[31mError while connecting to Redis: connect ECONNREFUSED 127.0.0.1:6379[39m
+[2025-02-18 10:22:00.309 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:22:44.885 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:22:44.936 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:22:45.185 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/register","status":"400","responseTime":"215.479"}[39m
+[2025-02-18 10:22:45.352 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/login","status":"200","responseTime":"149.835"}[39m
+[2025-02-18 10:22:45.368 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=undefined","status":"500","responseTime":"6.342"}[39m
+[2025-02-18 10:22:45.380 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/patients/update-profile","status":"500","responseTime":"3.614"}[39m
+[2025-02-18 10:22:45.393 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"400","responseTime":"3.158"}[39m
+[2025-02-18 10:22:45.405 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/patients/cancel-appointment","status":"400","responseTime":"2.875"}[39m
+[2025-02-18 10:22:45.421 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=undefined","status":"404","responseTime":"8.831"}[39m
+[2025-02-18 10:22:45.435 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-prescription?id=undefined","status":"200","responseTime":"6.583"}[39m
+[2025-02-18 10:22:45.447 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/payment-stripe","status":"500","responseTime":"3.542"}[39m
+[2025-02-18 10:23:38.559 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:23:38.613 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:23:38.894 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/register","status":"201","responseTime":"243.563"}[39m
+[2025-02-18 10:23:39.062 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/login","status":"200","responseTime":"151.875"}[39m
+[2025-02-18 10:23:39.078 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67b41252a453a23d40ff17fe","status":"200","responseTime":"7.502"}[39m
+[2025-02-18 10:23:39.108 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/patients/update-profile","status":"200","responseTime":"21.287"}[39m
+[2025-02-18 10:23:39.145 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"28.317"}[39m
+[2025-02-18 10:23:39.178 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/patients/cancel-appointment","status":"200","responseTime":"25.330"}[39m
+[2025-02-18 10:23:39.194 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67b41252a453a23d40ff17fe","status":"200","responseTime":"10.399"}[39m
+[2025-02-18 10:23:39.210 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-prescription?id=67b41252a453a23d40ff17fe","status":"200","responseTime":"6.932"}[39m
+[2025-02-18 10:23:39.227 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/payment-stripe","status":"404","responseTime":"7.302"}[39m
+[2025-02-18 10:26:20.936 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 10:26:20.992 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:26:21.033 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:26:54.056 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 10:26:54.064 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:26:54.096 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:27:10.402 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 10:27:10.411 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:27:10.434 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:28:05.611 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 10:28:05.646 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 10:28:05.860 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/register","status":"201","responseTime":"184.398"}[39m
+[2025-02-18 10:28:05.989 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/login","status":"200","responseTime":"117.603"}[39m
+[2025-02-18 10:28:06.002 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/get-profile?id=67b4135dd72262e2a8898103","status":"200","responseTime":"6.385"}[39m
+[2025-02-18 10:28:06.027 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/patients/update-profile","status":"200","responseTime":"17.965"}[39m
+[2025-02-18 10:28:06.058 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/book-appointment","status":"201","responseTime":"24.482"}[39m
+[2025-02-18 10:28:06.068 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-appointments?id=67b4135dd72262e2a8898103","status":"200","responseTime":"4.377"}[39m
+[2025-02-18 10:28:06.081 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/patients/list-prescription?id=67b4135dd72262e2a8898103","status":"200","responseTime":"6.381"}[39m
+[2025-02-18 10:28:06.367 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/patients/payment-stripe","status":"500","responseTime":"280.204"}[39m
+[2025-02-18 11:04:31.806 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:04:31.861 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:04:31.906 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"9.156"}[39m
+[2025-02-18 11:04:31.964 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"400","responseTime":"11.190"}[39m
+[2025-02-18 11:04:31.978 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"2.501"}[39m
+[2025-02-18 11:04:32.009 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"22.158"}[39m
+[2025-02-18 11:04:32.021 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:04:32.035 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"15.648"}[39m
+[2025-02-18 11:04:32.044 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.506"}[39m
+[2025-02-18 11:04:32.053 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:04:32.069 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"17.682"}[39m
+[2025-02-18 11:09:28.842 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:09:28.884 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:09:28.920 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"7.067"}[39m
+[2025-02-18 11:09:28.976 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"400","responseTime":"9.990"}[39m
+[2025-02-18 11:09:28.986 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"1.987"}[39m
+[2025-02-18 11:09:29.008 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"13.475"}[39m
+[2025-02-18 11:09:29.018 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:09:29.031 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"14.418"}[39m
+[2025-02-18 11:09:29.039 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.408"}[39m
+[2025-02-18 11:09:29.048 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:09:29.063 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"15.506"}[39m
+[2025-02-18 11:11:23.650 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:11:23.689 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:11:23.723 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"6.421"}[39m
+[2025-02-18 11:11:23.765 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"400","responseTime":"8.058"}[39m
+[2025-02-18 11:11:23.775 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"1.785"}[39m
+[2025-02-18 11:11:23.796 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"13.438"}[39m
+[2025-02-18 11:11:23.804 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:11:23.817 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"13.086"}[39m
+[2025-02-18 11:11:23.824 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.423"}[39m
+[2025-02-18 11:11:23.833 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:11:23.847 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"15.129"}[39m
+[2025-02-18 11:13:34.722 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:13:34.775 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:13:34.821 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"9.007"}[39m
+[2025-02-18 11:13:34.883 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"400","responseTime":"16.791"}[39m
+[2025-02-18 11:13:34.895 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"2.425"}[39m
+[2025-02-18 11:13:34.920 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"15.493"}[39m
+[2025-02-18 11:13:34.930 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:13:34.945 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"16.670"}[39m
+[2025-02-18 11:13:34.955 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.518"}[39m
+[2025-02-18 11:13:34.965 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:13:34.979 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"16.206"}[39m
+[2025-02-18 11:14:21.067 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 11:14:21.081 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:14:21.122 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:14:42.768 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 11:14:42.776 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:14:42.804 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:16:45.732 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:16:45.774 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:16:45.811 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"6.775"}[39m
+[2025-02-18 11:16:46.017 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"500","responseTime":"166.881"}[39m
+[2025-02-18 11:16:46.027 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"1.956"}[39m
+[2025-02-18 11:16:46.047 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"11.496"}[39m
+[2025-02-18 11:16:46.056 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:16:46.065 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"10.215"}[39m
+[2025-02-18 11:16:46.073 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.407"}[39m
+[2025-02-18 11:16:46.081 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:16:46.093 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"13.751"}[39m
+[2025-02-18 11:19:01.277 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 11:19:01.288 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:19:01.311 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:19:37.407 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:20:02.104 AM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 11:20:02.117 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:20:02.153 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:20:36.669 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:20:36.728 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:20:36.777 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"10.008"}[39m
+[2025-02-18 11:20:37.085 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"239.963"}[39m
+[2025-02-18 11:20:37.095 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/doctors","status":"404","responseTime":"2.298"}[39m
+[2025-02-18 11:20:37.119 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"14.127"}[39m
+[2025-02-18 11:20:37.130 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:20:37.141 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"12.550"}[39m
+[2025-02-18 11:20:37.149 AM] [32minfo[39m: 	[32m{"method":"PATCH","url":"/api/v1/admin/cancel-appointment","status":"404","responseTime":"0.500"}[39m
+[2025-02-18 11:20:37.159 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:20:37.176 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"18.621"}[39m
+[2025-02-18 11:26:56.255 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:26:56.286 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:26:56.312 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"4.348"}[39m
+[2025-02-18 11:26:56.461 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"118.272"}[39m
+[2025-02-18 11:26:56.466 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:26:56.478 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/all-doctors","status":"200","responseTime":"12.787"}[39m
+[2025-02-18 11:26:56.488 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"5.363"}[39m
+[2025-02-18 11:26:56.495 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:26:56.499 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"5.147"}[39m
+[2025-02-18 11:26:56.514 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/admin/cancel-appointment","status":"200","responseTime":"8.758"}[39m
+[2025-02-18 11:26:56.519 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:26:56.528 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"9.632"}[39m
+[2025-02-18 11:33:15.877 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:33:15.926 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:33:15.966 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/login","status":"200","responseTime":"7.718"}[39m
+[2025-02-18 11:33:16.208 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"190.921"}[39m
+[2025-02-18 11:33:16.216 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:33:16.235 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/all-doctors","status":"200","responseTime":"20.233"}[39m
+[2025-02-18 11:33:16.250 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/change-availability","status":"404","responseTime":"6.215"}[39m
+[2025-02-18 11:33:16.260 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:33:16.267 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/appointments","status":"200","responseTime":"8.107"}[39m
+[2025-02-18 11:33:16.289 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/admin/cancel-appointment","status":"200","responseTime":"13.221"}[39m
+[2025-02-18 11:33:16.297 AM] [32minfo[39m: 	[32m{}[39m
+[2025-02-18 11:33:16.308 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/admin/dashboard","status":"200","responseTime":"12.318"}[39m
+[2025-02-18 11:46:14.876 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:46:14.918 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:46:14.947 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctor/login","status":"404","responseTime":"1.921"}[39m
+[2025-02-18 11:46:14.986 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctor/appointments?id=undefined","status":"404","responseTime":"1.556"}[39m
+[2025-02-18 11:46:14.994 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/doctor/dashboard?id=undefined","status":"404","responseTime":"0.260"}[39m
+[2025-02-18 11:46:15.002 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/doctor/change-availability","status":"404","responseTime":"0.212"}[39m
+[2025-02-18 11:47:07.964 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:47:08.005 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:47:08.074 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"39.110"}[39m
+[2025-02-18 11:47:08.095 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.308"}[39m
+[2025-02-18 11:47:08.105 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/doctors/dashboard?id=undefined","status":"404","responseTime":"1.477"}[39m
+[2025-02-18 11:47:08.112 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/doctors/change-availability","status":"404","responseTime":"0.164"}[39m
+[2025-02-18 11:49:22.099 AM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 11:49:22.139 AM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 11:49:22.205 AM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"39.448"}[39m
+[2025-02-18 11:49:22.230 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.391"}[39m
+[2025-02-18 11:49:22.239 AM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"0.648"}[39m
+[2025-02-18 11:49:22.247 AM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.345"}[39m
+[2025-02-18 12:04:19.197 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:04:19.252 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:04:19.347 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"54.583"}[39m
+[2025-02-18 12:04:19.376 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.513"}[39m
+[2025-02-18 12:04:19.388 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"0.956"}[39m
+[2025-02-18 12:04:19.400 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.867"}[39m
+[2025-02-18 12:05:25.284 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:05:25.313 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:05:25.388 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:05:28.749 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:05:28.794 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:05:28.867 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"40.125"}[39m
+[2025-02-18 12:05:28.890 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.501"}[39m
+[2025-02-18 12:05:28.898 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"0.705"}[39m
+[2025-02-18 12:05:28.907 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.511"}[39m
+[2025-02-18 12:06:02.189 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:06:02.198 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:06:02.241 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:06:02.317 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"44.964"}[39m
+[2025-02-18 12:06:02.342 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.103"}[39m
+[2025-02-18 12:06:02.352 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"0.888"}[39m
+[2025-02-18 12:06:02.363 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.556"}[39m
+[2025-02-18 12:06:05.179 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:06:05.243 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:07:42.637 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:07:42.658 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:42.709 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:07:42.818 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"400","responseTime":"54.591"}[39m
+[2025-02-18 12:07:42.854 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=undefined","status":"500","responseTime":"1.323"}[39m
+[2025-02-18 12:07:42.867 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=undefined","status":"500","responseTime":"1.017"}[39m
+[2025-02-18 12:07:42.882 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"2.432"}[39m
+[2025-02-18 12:07:44.246 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:44.314 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:07:44.591 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:07:44.646 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:08:51.150 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:08:51.158 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:08:51.197 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:08:51.423 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"194.513"}[39m
+[2025-02-18 12:08:51.449 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.288"}[39m
+[2025-02-18 12:08:51.472 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"14.556"}[39m
+[2025-02-18 12:08:51.481 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.366"}[39m
+[2025-02-18 12:08:51.843 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:08:51.903 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:11:47.368 PM] [32minfo[39m: 	[32mServer is running in port 4000[39m
+[2025-02-18 12:11:47.390 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:11:47.468 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:11:53.986 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:11:54.094 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:11:54.378 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"241.459"}[39m
+[2025-02-18 12:11:54.406 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"7.462"}[39m
+[2025-02-18 12:11:54.424 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.076"}[39m
+[2025-02-18 12:11:54.434 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"2.118"}[39m
+[2025-02-18 12:12:54.398 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:12:54.407 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:12:54.443 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:12:54.638 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"166.948"}[39m
+[2025-02-18 12:12:54.661 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"9.188"}[39m
+[2025-02-18 12:12:54.674 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"6.149"}[39m
+[2025-02-18 12:12:54.682 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.240"}[39m
+[2025-02-18 12:14:14.231 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:14:14.240 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:14:14.274 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:14:14.516 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"212.875"}[39m
+[2025-02-18 12:14:14.541 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.151"}[39m
+[2025-02-18 12:14:14.558 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"8.416"}[39m
+[2025-02-18 12:14:14.566 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"404","responseTime":"1.688"}[39m
+[2025-02-18 12:15:23.214 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:15:23.235 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:15:23.313 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:15:26.819 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:15:26.855 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:15:27.071 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/doctors/login","status":"200","responseTime":"189.925"}[39m
+[2025-02-18 12:15:27.099 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/appointments?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"9.532"}[39m
+[2025-02-18 12:15:27.113 PM] [32minfo[39m: 	[32m{"method":"GET","url":"/api/v1/doctors/dashboard?id=67b422a497a5fd7a906a4d83","status":"200","responseTime":"6.344"}[39m
+[2025-02-18 12:15:27.140 PM] [32minfo[39m: 	[32m{"method":"PUT","url":"/api/v1/doctors/change-availability","status":"200","responseTime":"19.826"}[39m
+[2025-02-18 12:16:15.517 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:16:15.530 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:16:15.577 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:49:50.545 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:49:50.556 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:49:50.592 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:51:14.315 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:51:14.327 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:51:14.364 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 12:56:04.491 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 12:56:04.501 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 12:56:04.524 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:11:30.522 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:13:20.818 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 01:13:20.829 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:13:20.861 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:13:57.685 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 01:13:57.696 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:13:57.728 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:14:22.632 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:14:22.667 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:15:01.873 PM] [32minfo[39m: 	[32mServer is running in port 5000[39m
+[2025-02-18 01:15:01.882 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:15:01.916 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:16:53.947 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"500","responseTime":"180.527"}[39m
+[2025-02-18 01:18:10.697 PM] [32minfo[39m: 	[32mServer is running in port 5000[39m
+[2025-02-18 01:18:10.726 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:18:10.799 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:18:13.059 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:18:13.130 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:18:15.441 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:18:15.489 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:18:16.571 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:18:16.603 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:18:56.593 PM] [32minfo[39m: 	[32mServer is running in port 5000[39m
+[2025-02-18 01:18:56.602 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:18:56.630 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:19:46.396 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 01:19:46.405 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:19:46.433 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:19:54.102 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"184.298"}[39m
+[2025-02-18 01:51:08.068 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 01:51:08.088 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:51:08.136 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:51:09.719 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:51:09.782 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:51:11.484 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:51:11.528 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 01:51:47.732 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 01:51:47.741 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 01:51:47.768 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:02:16.252 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:02:16.278 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:02:16.336 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:02:36.718 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:02:36.744 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:02:36.824 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:02:39.283 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:02:39.334 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:06:25.721 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:06:25.733 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:06:25.782 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:06:27.434 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:06:27.464 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:09:31.910 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"213.643"}[39m
+[2025-02-18 02:10:21.456 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:10:21.473 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:10:21.527 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:10:22.828 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:10:22.859 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:10:29.159 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"198.585"}[39m
+[2025-02-18 02:11:37.459 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"139.101"}[39m
+[2025-02-18 02:12:55.594 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:12:55.614 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:12:55.685 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:12:58.665 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:12:58.712 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:13:17.138 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:13:17.153 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:13:17.202 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:13:18.795 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:13:18.821 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:13:48.247 PM] [32minfo[39m: 	[32m{"method":"POST","url":"/api/v1/admin/add-doctor","status":"201","responseTime":"207.216"}[39m
+[2025-02-18 02:18:04.485 PM] [32minfo[39m: 	[32mServer is running in port 3000[39m
+[2025-02-18 02:18:04.504 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:18:04.550 PM] [32minfo[39m: 	[32mDatabase has been connected[39m
+[2025-02-18 02:18:05.564 PM] [32minfo[39m: 	[32mConnected to Redis database[39m
+[2025-02-18 02:18:05.597 PM] [32minfo[39m: 	[32mDatabase has been connected[39m

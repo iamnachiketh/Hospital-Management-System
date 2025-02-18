@@ -3,6 +3,7 @@ import { addDoctor } from "../validation/doctor.validation";
 import { v2 as cloudinary } from "cloudinary";
 import * as AdminService from "../service/admin.service";
 import bcrypt from "bcryptjs";
+import { logger } from "../logger";
 
 export const handelLoginAdmin = async (req: Request, res: Response) => {
     try {
@@ -36,7 +37,7 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
 
         const { name, email, password, speciality, degree, experience, about, fees, address } = req.body;
 
-        const imageFile = req.file;
+        const imageFile = req.file || " ";
 
         const { error } = addDoctor.validate({
             name,
@@ -64,7 +65,7 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
 
         let imageUpload, imageUrl;
 
-        if (imageFile) {
+        if (imageFile && imageFile !== " ") {
             imageUpload = await cloudinary.uploader.upload(imageFile.path, { resource_type: "image" });
             imageUrl = imageUpload.secure_url;
         }
@@ -100,7 +101,7 @@ export const handelAddDoctor = async (req: Request, res: Response) => {
 export const handelAppointmentsAdmin = async (req: Request, res: Response) => {
     try {
 
-        console.log(req.body);
+        logger.info(req.body);
         const response = await AdminService.appointmentAdmin();
 
         res.status(response.status).json({
@@ -138,7 +139,7 @@ export const handelAppointmentCancel = async (req: Request, res: Response) => {
 export const handelAllDoctors = async (req: Request, res: Response) => {
     try {
 
-        console.log(req.body);
+        logger.info(req.body);
         const response = await AdminService.allDoctors();
         res.status(response.status).json({
             status: response.status,
@@ -175,7 +176,7 @@ export const changeAvailablity = async (req: Request, res: Response) => {
 export const handelAdminDashboard = async (req: Request, res: Response) => {
     try {
 
-        console.log(req.body);
+        logger.info(req.body);
         const response = await AdminService.adminDashboard();
 
         res.status(response.status).json({

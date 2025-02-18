@@ -3,6 +3,8 @@ import httpCode from "http-status-codes";
 import { doctorModel } from "../models/doctor.model";
 import { appointmentModel } from "../models/appointment.model";
 import { patientModel } from "../models/patient.model";
+import { departmentModel } from "../models/department.model";
+import { deptNameStringMatch } from "../helper/helper";
 
 export const loginAdmin = async function (email: string, password: string) {
     try {
@@ -17,10 +19,38 @@ export const loginAdmin = async function (email: string, password: string) {
 }
 
 
-export const addDoctor = async function (doctorData: any) {
+export const addDoctor = async function (this: any, doctorData: any) {
     try {
         const newDoctor = new doctorModel(doctorData);
         await newDoctor.save();
+
+        doctorData.speciality = deptNameStringMatch(doctorData.degree);
+
+        console.log(doctorData.speciality);
+
+        const deptData = await departmentModel.findOneAndUpdate({ deptName: doctorData.speciality }, {
+
+            $push: {
+                docIds: newDoctor._id.toString()
+            },
+            $inc: {
+                numberOfDoctors: 1
+            }
+        });
+
+        if (!deptData) {
+
+            const data = {
+                docIds: [newDoctor._id.toString()],
+                deptName: deptNameStringMatch(doctorData.degree),
+                numberOfDoctors: 1
+            }
+
+            const deptData = new departmentModel(data);
+
+            await deptData.save();
+        }
+
         return { status: httpCode.CREATED, message: "Doctor Added", data: newDoctor };
     } catch (error: any) {
         return { status: httpCode.INTERNAL_SERVER_ERROR, message: error.message, data: null };

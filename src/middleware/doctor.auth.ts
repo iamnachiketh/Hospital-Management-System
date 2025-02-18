@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 export const authDoctor = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     const dtoken = req.headers["x-token"] as string;
     if (!dtoken) {
-        res.status(401).json({ status: 401, message: 'Not Authorized Login Again', data: null });
+        res.status(401).json({ status: 401, message: "Not Authorized Login Again", data: null });
         return;
     }
     try {

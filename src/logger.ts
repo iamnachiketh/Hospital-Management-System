@@ -14,7 +14,7 @@ const consoleLogFormat = format.combine(
 
 
 export const logger = createLogger({
-    
+
     level: "info",
     format: consoleLogFormat,
     transports: [

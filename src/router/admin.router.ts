@@ -69,7 +69,7 @@ adminRouter.post("/login", AdminController.handelLoginAdmin);
  *       500:
  *         description: Server error
  */
-adminRouter.post("/add-doctor", authAdmin,  upload.single("image"), AdminController.handelAddDoctor);
+adminRouter.post("/add-doctor", authAdmin, upload.single("image"), AdminController.handelAddDoctor);
 
 
 

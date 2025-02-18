@@ -9,7 +9,7 @@ import bcrypt from "bcryptjs";
 import stripe from "stripe";
 
 
-const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY ?? " ", {
+export const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY ?? " ", {
     apiVersion: "2025-01-27.acacia"
 } as stripe.StripeConfig);
 
@@ -254,7 +254,6 @@ export const listOfAppointments = async function (patientId: string) {
             return { status: httpCode.NOT_FOUND, message: `No appointment for patient id ${patientId}`, data: null };
         }
 
-        
         if (appointments.length > 0) {
             const pipeline = redisClient.multi();
             appointments.forEach((value) => pipeline.rPush(redisAppointmentListKey, JSON.stringify(value)));
@@ -287,7 +286,7 @@ export const getPrescriptions = async function (patientId: string) {
 
 export const paymentStripe = async function (appointmentId: string, origin: any) {
     try {
-        const appointmentData = await appointmentModel.findById({ _id: appointmentId }, { __v: 0 });
+        const appointmentData = await appointmentModel.findById(appointmentId, { __v: 0 });
 
         if (!appointmentData || appointmentData.cancelled) {
             return { status: httpCode.NOT_FOUND, message: "Appointment Cancelled or not found", data: null };
@@ -310,7 +309,7 @@ export const paymentStripe = async function (appointmentId: string, origin: any)
             success_url: `${origin}/verify?success=true&appointmentId=${appointmentData._id}`,
             cancel_url: `${origin}/verify?success=false&appointmentId=${appointmentData._id}`,
             line_items: line_items,
-            mode: 'payment',
+            mode: "payment",
         });
 
         return { status: httpCode.CREATED, message: "Payment session", data: null, session_url: session.url };
